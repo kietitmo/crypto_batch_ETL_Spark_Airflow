@@ -2,6 +2,8 @@
 
 Using airflow to schedule spark jobs to run daily to get data about K-lines of BTC-USDT from 3 exchanges Binance, Bybit and BingX.
 
+![pipeline](./assets/photos/pipeline.png)
+
 ### Project Structure
 
 The DAG sparking_flow includes the following tasks:
