@@ -56,28 +56,28 @@ Hadoop HDFS
 
 1. Configure spark connection acessing airflow web UI http://localhost:8080 and going to Connections
 
-[connection-menu](./assets/photos/connection-menu.png)
+![connection-menu](./assets/photos/connection-menu.png)
 
 2. Add Spark connection:
 
-[connection-add](./assets/photos/add-spark-conn.png)
+![connection-add](./assets/photos/add-spark-conn.png)
 
 3. Run DAG:
 
-[run-dag](./assets/photos/run-dag.png)
+![run-dag](./assets/photos/run-dag.png)
 
 4. Check the spark application in the Spark Master web UI (http://localhost:9090)
 
-[spark-master](./assets/photos/spark-master.png)
+![spark-master](./assets/photos/spark-master.png)
 
 5. Check datalake (HDFS)
 
-[datalake](./assets/photos/datalake.png)
+![datalake](./assets/photos/datalake.png)
 
-[datalake](./assets/photos/datalake2.png)
+![datalake](./assets/photos/datalake2.png)
 
-[datalake](./assets/photos/datalake3.png)
+![datalake](./assets/photos/datalake3.png)
 
-[datalake](./assets/photos/datalake4.png)
+![datalake](./assets/photos/datalake4.png)
 
 
