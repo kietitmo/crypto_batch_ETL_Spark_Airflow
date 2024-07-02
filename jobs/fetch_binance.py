@@ -43,7 +43,6 @@ from pyspark.sql.functions import *
 
 spark = SparkSession.builder \
     .appName('spark-app-fetch-from-binance') \
-    .master("local[*]") \
     .getOrCreate()
 
 dataframe = spark.createDataFrame(response, columns).select(['Open_time', 'Open_price', 'High_price', 'Low_price', 'Close_price', 'Volume'])

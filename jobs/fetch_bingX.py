@@ -29,7 +29,6 @@ from pyspark.sql.functions import *
 
 spark = SparkSession.builder \
     .appName('spark-app-fetch-from-bybit') \
-    .master("local[*]") \
     .getOrCreate()
 
 
