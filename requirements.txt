@@ -1,3 +1,5 @@
 apache-airflow 
 apache-airflow-providers-apache-spark==4.8.2
 pyspark
+python-telegram-bot
+apache-airflow-providers-telegram

@@ -60,13 +60,25 @@ Hadoop HDFS
 
 ![connection-menu](./assets/photos/connection-menu.png)
 
-2. Add Spark connection:
+2. Add Spark and Telegram connection:
 
 ![connection-add](./assets/photos/add-spark-conn.png)
 
+![connections](./assets/photos/connections.png)
+
+Variable for telegram connection
+
+![vars](./assets/photos/vars.png)
+
 3. Run DAG:
 
-![run-dag](./assets/photos/run-dag.png)
+![run-dag](./assets/photos/etl_sucessful_running.png)
+
+Failure situation -> notify to telegram:
+
+![fail running](./assets/photos/sent_noti.png)
+
+![fail running](./assets/photos/messages.png)
 
 4. Check the spark application in the Spark Master web UI (http://localhost:9090)
 
