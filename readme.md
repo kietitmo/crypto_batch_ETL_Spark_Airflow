@@ -54,7 +54,7 @@ Hadoop HDFS
 * Namnode: http://localhost:9870
 * Resource manager: http://localhost:8088
 
-API response example (from Binance): 
+API response example: 
 
 * Binance:
 
